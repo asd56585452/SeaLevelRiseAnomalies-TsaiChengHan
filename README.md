@@ -6,11 +6,14 @@ This repository contains the final training code and trained models for the comp
 
 ```
 .
-├── optuna_train.py         # Structure search and hyperparameter tuning using Optuna
-├── SLAV8-K=5.ipynb         # Final training script with 5-fold cross-validation
-├── sla_dataset.py          # CPU version of SLA dataset loader
-├── sla_dataset_GPU.py      # GPU-accelerated version of SLA dataset loader
 ├── README.md               # This README file
+├── DetectingSeaLevelRiseAnomalies_train
+  ├── optuna_train.py         # Structure search and hyperparameter tuning using Optuna
+  ├── SLAV8-K=5.ipynb         # Final training script with 5-fold cross-validation
+  ├── sla_dataset.py          # CPU version of SLA dataset loader
+  ├── sla_dataset_GPU.py      # GPU-accelerated version of SLA dataset loader
+├── DetectingSeaLevelRiseAnomalies_SubmissionV8 # Final submission
+
 ```
 
 ## File Descriptions
