@@ -8,15 +8,23 @@ This repository contains the final training code and trained models for the comp
 .
 ├── README.md               # This README file
 ├── DetectingSeaLevelRiseAnomalies_train
-  ├── optuna_train.py         # Structure search and hyperparameter tuning using Optuna
-  ├── SLAV8-K=5.ipynb         # Final training script with 5-fold cross-validation
-  ├── sla_dataset.py          # CPU version of SLA dataset loader
-  ├── sla_dataset_GPU.py      # GPU-accelerated version of SLA dataset loader
+│   ├── optuna_train.py         # Structure search and hyperparameter tuning using Optuna
+│   ├── SLAV8-K=5.ipynb         # Final training script with 5-fold cross-validation
+│   ├── sla_dataset.py          # CPU version of SLA dataset loader
+│   ├── sla_dataset_GPU.py      # GPU-accelerated version of SLA dataset loader
 ├── DetectingSeaLevelRiseAnomalies_SubmissionV8 # Final submission
+    ├── Summary Description of the Model.md # Submission README file contain file summary
+    ├── model.py         
+    ├── 1best_sla_cnn_model.pth        
+    ├── 2best_sla_cnn_model.pth     
+    ├── 3best_sla_cnn_model.pth       
+    ├── 4best_sla_cnn_model.pth        
+    ├── 5best_sla_cnn_model.pth     
+    ├── my_sla.csv 
 
 ```
 
-## File Descriptions
+## Folder DetectingSeaLevelRiseAnomalies_train Descriptions 
 
 ### `optuna_train.py`
 - Uses [Optuna](https://optuna.org/) for structure search and hyperparameter optimization.
@@ -55,6 +63,9 @@ Open `SLAV8-K=5.ipynb` in Jupyter Notebook and run the cells sequentially to per
 - Optuna
 - NumPy, Pandas, Xarray
 - Matplotlib (optional, for data visualization)
+
+## References
+The initial content was generated using OpenAI's ChatGPT and subsequently refined manually.
 
 ## Contact
 Author: **Tsai Cheng-Han**  
